@@ -1,0 +1,56 @@
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0 5rem;
+  font-weight: 600;
+  color: white;
+}
+.sep {
+  display: inline-flex;
+  padding-left: 50rem;
+  padding-right: 3rem;
+}
+.create {
+  text-decoration: none;
+}
+.loginH {
+  padding-left: 60rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.registerH {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .create {
+    text-decoration: none;
+  }
+  .loginH {
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .registerH {
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0 2rem;
+    font-weight: 600;
+    color: white;
+  }
+  .create {
+    text-decoration: none;
+  }
+  .sep {
+    display: block;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
